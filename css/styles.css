@@ -67,7 +67,7 @@ button {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -80,7 +80,6 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -99,6 +98,7 @@ button {
 .advantages-text {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em
     color: #434455;
 }
 
@@ -109,11 +109,15 @@ button {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+}
+
+.team-list-item {
+    background-color: #FFFFFF
 }
 
 .team-subtitle {
@@ -136,7 +140,7 @@ button {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
